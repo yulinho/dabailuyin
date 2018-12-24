@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view>
+  <view class="divLine"></view>
+  <view class='help' wx:if="{{recordFlag}}">
+    <button class='help_item' bindtap='addRecord'>开始记事</button>
+    <button class='help_item_normal' bindtap='help'>使用帮助</button>
+  </view>
+
+  <view wx:for="{{list}}" wx:key="list">
+
+    <view class='out_box' bindlongtap='delete' data-key="{{item.file_dir}}">
+      <view class='box'>
+        <view class='name'>问:{{item.record_content}}</view>
+        <view class='name' wx:if="{{!(item.answer_content == null)}}">答:{{item.answer_content}}</view>
+        <view class='time'>{{item.create_time_str}}</view>
+      </view>
+    </view>
+    <view class="divLine"></view>
+
+  </view>
+</view>

@@ -1,0 +1,32 @@
+.help {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  flex-wrap: wrap;
+  margin: 30rpx;
+}
+
+.title1 {
+  color: #000;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.title2 {
+  color: #000;
+  font-size: large;
+  margin-top: 30rpx;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.content {
+  color: #a9a9a9;
+  font-size: large;
+  margin-top: 10rpx;
+}

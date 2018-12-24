@@ -1,0 +1,12 @@
+<view class='help'>
+  <text class='title1'>使用说明</text>
+  <text class='content'>1，语音转成文字功能是在云端实现,使用时需手机保持联网。</text>
+  <text class='content'>2，录音目前时间限制在60秒以内。</text>
+  <text class='content'>3，本软件目前处于测试中，使用中遇到问题请联系客服</text>
+
+  <text class='title2'>近期更新</text>
+  <text class='content'>1，去除录音存储，优化了交互</text>
+  <text class='content'>2，加快语音识别速度</text>
+  <text class='content'>3，增加云端识别</text>
+  <text class='content'>4，增加客服、帮助功能</text>
+</view>

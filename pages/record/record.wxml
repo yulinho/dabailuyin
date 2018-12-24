@@ -1,0 +1,9 @@
+<view>
+  <view class='backgroud'>
+    <text class='text'>{{remainTimeText}}</text>
+    <button class='button' bindtap='record'>{{buttonTxt}}</button>    
+  </view>
+  <view class='bottom'>   
+  <text class='post'>语音识别技术由科大讯飞提供</text>  
+  </view>     
+</view>

@@ -1,0 +1,113 @@
+/**index.wxss**/
+
+.userinfo {
+  flex-direction: column;
+  align-items: left;
+}
+
+.userinfo-avatar {
+  width: 96rpx;
+  height: 96rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.post {
+  float: right;
+  background-color: #fff;
+  position: fixed;
+  bottom: 80rpx;
+  right: 80rpx;
+  border: 0 solid #fff;
+  border-radius: 500px;
+  box-shadow: 4px 1px 1px #ccc;
+  z-index: 1;
+}
+
+.add {
+  float: right;
+  position: fixed;
+  bottom: 80rpx;
+  right: 80rpx;
+  z-index: 1;
+}
+
+.name {
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  color: #696969;
+  font-size: large;
+}
+
+.time {
+  margin-left: 20rpx;
+  margin-bottom: 20rpx;
+  margin-top: 20rpx;
+  color: #a9a9a9;
+  font-size: small;
+}
+
+.play {
+  margin-right: 30rpx;
+  margin-left: 30rpx;
+}
+
+.box {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.out_box {
+  display: flex;
+  width: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.help {
+  color: #696969;
+  font-size: large;
+  background-color: #fff;
+  justify-content: content;
+  align-items: center;
+  align-content: center;
+}
+
+.help_item {
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-top: 30rpx;
+  background-color: #09bb07;
+  color: #fff;
+}
+
+.help_item_normal {
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-top: 30rpx;
+  background-color: #fff;
+  color: #000;
+}
+
+.divLine {
+  background: #f1f1f1;
+  width: 100%;
+  height: 1rpx;
+}
+
+.image {
+  width: 64rpx;
+  height: 64rpx;
+}
