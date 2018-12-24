@@ -13,7 +13,7 @@
 有任何建议想法，可以邮件与我联系zgliuwen@163.com  
   
 效果图  
-![图片1](https://github.com/zgliuwen/dabailuyin/blob/master/screenshot/%E5%9B%BE%E7%89%871.png)
+<div align=center><img width="270" height="480" src="https://github.com/zgliuwen/dabailuyin/blob/master/screenshot/%E5%9B%BE%E7%89%871.png"/></div>
 ![图片2](https://github.com/zgliuwen/dabailuyin/blob/master/screenshot/%E5%9B%BE%E7%89%872.png)  
   
   
